@@ -22,9 +22,15 @@ Para envio silencioso em segundo plano, seria necessário integrar posteriorment
 
 - `index.html`: conteúdo e estrutura semântica
 - `styles.css`: sistema visual, responsividade e animações
-- `script.js`: menu, animações, progresso e formulário
-- `assets/`: fotos, recortes originais da logo e fontes locais
+- `script.js`: menu, carrossel da galeria, animações, progresso e formulário
+- `assets/`: fotos, vídeo de apresentação, recortes originais da logo e fontes locais
 - `brand-spec.md`: especificação visual e origem dos ativos
+
+## Galeria e vídeo
+
+A seção **Galeria** exibe um carrossel responsivo com sete fotos (as duas já existentes mais cinco novas), sem repetição de imagens. A navegação funciona por setas, indicadores, teclado e arraste (swipe) no toque.
+
+A seção **Vídeo** traz a apresentação gravada pela dentista, em player HTML5 nativo (`assets/apresentacao.mp4`, vertical 576×1024), com poster gerado a partir do próprio vídeo e carregamento sob demanda (`preload="metadata"`).
 
 ## Identidade visual
 

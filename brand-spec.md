@@ -24,6 +24,13 @@ O site adota uma linguagem de **luxo clínico contemporâneo**, equilibrando aut
 | Procedimento clínico | `assets/procedimento-clinico.jpg` | Cópia sem alteração de `IMG_20260903_090831.jpg` |
 | Extração dentária | `assets/extracao-dentaria.jpg` | Cópia sem alteração de `IMG_20260903_090513.jpg` |
 | Reconhecimento profissional | `assets/reconhecimento-profissional.jpg` | Cópia sem alteração de `IMG_20260903_090345.jpg` |
+| Galeria — cuidado | `assets/galeria-cuidado.jpg` | Cópia sem alteração de `IMG-20261009-WA0091.jpg` |
+| Galeria — sorriso | `assets/galeria-sorriso.jpg` | Cópia sem alteração de `IMG-20261009-WA0095.jpg` |
+| Galeria — estrutura | `assets/galeria-estrutura.jpg` | Cópia sem alteração de `IMG-20261009-WA0096.jpg` |
+| Galeria — equipe | `assets/galeria-equipe.jpg` | Cópia sem alteração de `IMG-20261009-WA0097.jpg` |
+| Galeria — atendimento | `assets/galeria-atendimento.jpg` | Cópia sem alteração de `IMG-20261009-WA0098.jpg` |
+| Vídeo de apresentação | `assets/apresentacao.mp4` | `VID-20261013-WA0037.mp4` (remux `+faststart`, sem reencode) |
+| Poster do vídeo | `assets/apresentacao-poster.jpg` | Frame extraído do vídeo em `-ss 2` |
 
 > Os arquivos de logo são **recortes diretos dos pixels originais** fornecidos pelo cliente. Não houve vetorização, redesenho, reconstrução, troca de cor, remoção de fundo ou alteração tipográfica.
 

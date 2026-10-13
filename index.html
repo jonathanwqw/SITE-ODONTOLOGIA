@@ -26,8 +26,9 @@
 
     <nav class="main-nav" id="menu-principal" aria-label="Navegação principal">
       <a href="#essencia">A clínica</a>
+      <a href="#galeria">Galeria</a>
       <a href="#cuidados">Cuidados</a>
-      <a href="#experiencia">Experiência</a>
+      <a href="#apresentacao">Vídeo</a>
       <a href="#contato">Contato</a>
       <a class="nav-cta" href="https://wa.me/5531984120177?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Smart%20Odontologia%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener noreferrer">Agendar avaliação <span aria-hidden="true">↗</span></a>
     </nav>
@@ -76,18 +77,54 @@
       </div>
     </section>
 
-    <section class="gallery-band" aria-label="Smart Odontologia em detalhes">
-      <figure class="gallery-card gallery-tall reveal">
-        <img src="assets/procedimento-clinico.jpg" alt="Equipe realizando procedimento odontológico com cuidado clínico" loading="lazy" width="1236" height="998">
-        <figcaption><span>01</span> Cuidado em cada gesto</figcaption>
-      </figure>
-      <figure class="gallery-card gallery-square reveal">
-        <img src="assets/reconhecimento-profissional.jpg" alt="Registro de reconhecimento profissional da Smart Odontologia" loading="lazy" width="1318" height="1311">
-        <figcaption><span>02</span> Dedicação reconhecida</figcaption>
-      </figure>
-      <div class="gallery-quote reveal">
-        <span class="quote-mark" aria-hidden="true">“</span>
-        <p>Seu sorriso merece um olhar inteiro, não apenas um procedimento.</p>
+    <section class="gallery section" id="galeria" aria-labelledby="gallery-title">
+      <div class="gallery-head reveal">
+        <div>
+          <p class="eyebrow">Smart em detalhes</p>
+          <h2 id="gallery-title">Cuidado que acontece <em>de perto.</em></h2>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn" type="button" data-carousel-prev aria-label="Imagem anterior">
+            <span aria-hidden="true">←</span>
+          </button>
+          <button class="carousel-btn" type="button" data-carousel-next aria-label="Próxima imagem">
+            <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="carousel" data-carousel>
+        <div class="carousel-track" data-carousel-track>
+          <figure class="carousel-slide">
+            <img src="assets/procedimento-clinico.jpg" alt="Equipe realizando procedimento odontológico com cuidado clínico" loading="lazy" width="1236" height="998">
+            <figcaption><span>01</span> Cuidado em cada gesto</figcaption>
+          </figure>
+          <figure class="carousel-slide">
+            <img src="assets/reconhecimento-profissional.jpg" alt="Registro de reconhecimento profissional da Smart Odontologia" loading="lazy" width="1318" height="1311">
+            <figcaption><span>02</span> Dedicação reconhecida</figcaption>
+          </figure>
+          <figure class="carousel-slide">
+            <img src="assets/galeria-cuidado.jpg" alt="Atenção aos detalhes durante o atendimento na Smart Odontologia" loading="lazy" width="1098" height="976">
+            <figcaption><span>03</span> Atenção aos detalhes</figcaption>
+          </figure>
+          <figure class="carousel-slide">
+            <img src="assets/galeria-sorriso.jpg" alt="Paciente sorrindo após o tratamento odontológico" loading="lazy" width="1087" height="1446">
+            <figcaption><span>04</span> Resultados que encantam</figcaption>
+          </figure>
+          <figure class="carousel-slide">
+            <img src="assets/galeria-estrutura.jpg" alt="Estrutura e equipamentos da clínica Smart Odontologia" loading="lazy" width="1024" height="1536">
+            <figcaption><span>05</span> Estrutura e tecnologia</figcaption>
+          </figure>
+          <figure class="carousel-slide">
+            <img src="assets/galeria-equipe.jpg" alt="Equipe da Smart Odontologia durante o atendimento" loading="lazy" width="922" height="1152">
+            <figcaption><span>06</span> Equipe dedicada</figcaption>
+          </figure>
+          <figure class="carousel-slide">
+            <img src="assets/galeria-atendimento.jpg" alt="Atendimento acolhedor na Smart Odontologia" loading="lazy" width="1087" height="1446">
+            <figcaption><span>07</span> Atendimento acolhedor</figcaption>
+          </figure>
+        </div>
+        <div class="carousel-dots" data-carousel-dots role="tablist" aria-label="Selecione uma imagem"></div>
       </div>
     </section>
 
@@ -123,6 +160,22 @@
           </div>
           <span class="care-arrow" aria-hidden="true">↗</span>
         </article>
+      </div>
+    </section>
+
+    <section class="film section" id="apresentacao" aria-labelledby="film-title">
+      <div class="film-copy reveal">
+        <p class="eyebrow eyebrow-light">Apresentação</p>
+        <h2 id="film-title">Conheça nosso trabalho <em>por dentro.</em></h2>
+        <p>Nossa dentista apresenta, em vídeo, um pouco da rotina clínica, dos procedimentos e do cuidado que dedicamos a cada sorriso na Smart Odontologia.</p>
+        <a class="button button-gold" href="https://wa.me/5531984120177?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Smart%20Odontologia%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener noreferrer">Agendar avaliação <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="film-player reveal">
+        <video controls preload="metadata" playsinline poster="assets/apresentacao-poster.jpg" width="576" height="1024">
+          <source src="assets/apresentacao.mp4" type="video/mp4">
+          Seu navegador não suporta vídeo HTML5. <a href="assets/apresentacao.mp4">Baixe o vídeo aqui</a>.
+        </video>
       </div>
     </section>
 
