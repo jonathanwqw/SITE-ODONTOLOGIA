@@ -20,6 +20,8 @@ O site adota uma linguagem de **luxo clínico contemporâneo**, equilibrando aut
 |---|---|---|
 | Logo em área clara | `assets/logo-original-clara.jpg` | Recorte direto de `IMG_20260903_090831.jpg` |
 | Logo em área escura | `assets/logo-original-escura.jpg` | Recorte direto de `IMG_20260903_090730.jpg` |
+| Logo transparente (área clara) | `assets/logo-clara.png` | Fundo branco removido de `logo-original-clara.jpg` (PNG com alfa) |
+| Logo transparente (área escura) | `assets/logo-escura.png` | Fundo escuro removido de `logo-original-escura.jpg` (PNG com alfa, margens aparadas) |
 | Hero | `assets/cuidado-sorriso.jpg` | Cópia sem alteração de `IMG_20260903_090730.jpg` |
 | Procedimento clínico | `assets/procedimento-clinico.jpg` | Cópia sem alteração de `IMG_20260903_090831.jpg` |
 | Extração dentária | `assets/extracao-dentaria.jpg` | Cópia sem alteração de `IMG_20260903_090513.jpg` |
@@ -33,6 +35,8 @@ O site adota uma linguagem de **luxo clínico contemporâneo**, equilibrando aut
 | Poster do vídeo | `assets/apresentacao-poster.jpg` | Frame extraído do vídeo em `-ss 2` |
 
 > Os arquivos de logo são **recortes diretos dos pixels originais** fornecidos pelo cliente. Não houve vetorização, redesenho, reconstrução, troca de cor, remoção de fundo ou alteração tipográfica.
+
+> **Atualização:** as versões `logo-clara.png` e `logo-escura.png` são derivadas das originais apenas com a **remoção do fundo** (canal alfa), preservando cor e traço. No site elas substituem os `mix-blend-mode` usados anteriormente, dispensando o artifício de mesclagem.
 
 ## Sistema visual
 
